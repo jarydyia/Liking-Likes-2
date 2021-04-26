@@ -1,0 +1,86 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.header{
+    width: 900px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.networkBar{
+    color: white;
+    margin-left: 50px;
+    margin-bottom: 0;
+
+}
+    
+.secondBar{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.feedBar{
+    color: black;
+    margin: 0px;
+    text-align: center;
+}
+
+.contentContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.myBox{
+    background-color: white;
+    width: 250px;
+    height: 450px;
+    margin-right: 50px;
+    justify-content: center;
+    border: 5px solid black;
+}
+
+.commentSection{
+    ;
+    width: 600px;
+    height: 450px;
+}
+
+.me{
+    border-radius: 50%;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.myName{
+    font-size: 50px;
+    text-align: center;
+}
+
+.commentContainer{
+    height: 200px;
+    width: 600px;
+    background-color: white;
+    border: 5px solid black;
+    margin: 5px;
+}
+
+.personName{
+}
+
+.numberOfLikes{
+}
+
+button{
+    height: 50px;
+    width: 100px;
+}
+
+.personName, .numberOfLikes, button{
+    display:inline-block;
+    margin-right: 50px;
+    font-size: 25px;
+}
